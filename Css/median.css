@@ -1,0 +1,268 @@
+/* as8ar mn 640 */
+@media (min-width: 1px) and (max-width: 1024px) {
+  .parent-Nav-Bar {
+    padding: 0px 0px 10px 0px;
+  }
+
+  .Nav-bar-links li {
+    padding: 0px;
+    margin: 0px;
+  }
+  .Nav-bar-links a {
+    font-size: 14px;
+  }
+  .Nav-bar-links ul {
+    position: absolute;
+    right: 5%;
+    bottom: 30%;
+  }
+  .Nav-Bar-logo {
+    position: relative;
+    left: -20px;
+    bottom: 5%;
+  }
+  .Nav-Bar-logo {
+    width: 20%;
+  }
+  .Nav-bar-links {
+    width: 69%;
+  }
+  .parent-landing {
+    text-align: center;
+  }
+  .landing-img {
+    margin-top: 50px;
+  }
+  #Intro {
+    margin: 30px 0px 0px 0px;
+  }
+  .parent-landing {
+    height: 100%;
+  }
+  .Landing-container {
+    width: 100%;
+  }
+  .chef {
+    padding: 15px 0px;
+    width: 100%;
+  }
+  .chef-img::before {
+    bottom: -20px;
+  }
+  .picture-container {
+    width: 100%;
+  }
+  .detail {
+    width: 100%;
+  }
+  .detail-icon i {
+    background-color: rgb(206, 18, 18);
+    padding: 10px;
+  }
+  .detail-text {
+    width: 78%;
+  }
+
+  .contact-input div {
+    width: 100%;
+  }
+  .L {
+    position: absolute;
+    bottom: -400px;
+    left: 0;
+  }
+  .f {
+    position: absolute;
+    bottom: 200px;
+    left: 0;
+  }
+  .footer-container {
+    position: relative;
+    width: 100%;
+  }
+  .footer-social li {
+    padding: 6% 8% 0;
+  }
+  #SubEmail {
+    width: 100%;
+  }
+  .news-inner button {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .inner-quickLinks li {
+    width: 25vw;
+  }
+}
+/* sm */
+@media (min-width: 640px) and (max-width: 768px) {
+  .Nav-bar-links li {
+    padding: 10px;
+    margin: 0px;
+  }
+
+  .Nav-bar-links ul {
+    position: absolute;
+    right: 30%;
+    bottom: 20%;
+  }
+}
+
+/* md */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Nav-bar-links li {
+    padding: 10px;
+    margin: 0px;
+  }
+  .Landing-container {
+    width: 100%;
+  }
+  .Nav-bar-links ul {
+    position: absolute;
+    right: 30%;
+    bottom: 20%;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .chef {
+    padding: 20px 20px;
+    width: 50%;
+    position: relative;
+    z-index: 5;
+  }
+
+  .picture-container {
+    width: 50%;
+  }
+  .container-steak {
+    float: right;
+  }
+
+  .detail {
+    width: 50%;
+  }
+  .parent-contactUs .container {
+    width: 100%;
+  }
+  .detail-text {
+    width: 86%;
+  }
+
+  .detail p,
+  .detail strong,
+  .detail {
+    font-size: 16px;
+  }
+  .inner-detail {
+    padding: 10px;
+    width: 100%;
+  }
+  .x {
+    width: 50%;
+  }
+
+  .L {
+    width: 50%;
+    position: static;
+    bottom: 0px;
+    left: 0;
+  }
+  .f {
+    position: static;
+    bottom: 0px;
+    left: 0;
+  }
+
+  #SubEmail {
+    width: 82%;
+  }
+
+  .inner-quickLinks li {
+    width: 38vw;
+  }
+
+  .news-inner button {
+    float: right;
+    width: 17%;
+    margin-top: 0px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+  .Nav-Bar-logo {
+    padding-left: 30px;
+  }
+  .parent-landing {
+    height: 100vh;
+    padding-bottom: 20px;
+  }
+  .landing-img img {
+    width: 95%;
+  }
+  .Landing-container {
+    width: 50%;
+  }
+  .chef-img::before {
+    bottom: -15px;
+  }
+  .chef {
+    width: 33.33%;
+  }
+  .picture-container {
+    width: 33.33%;
+  }
+  .detail {
+    width: 50%;
+  }
+  .contact-input div {
+    width: 50%;
+  }
+
+  .container-steak {
+    float: left;
+  }
+  .parent-landing {
+    text-align: left;
+  }
+  .inner-quickLinks li {
+    width: 12vw;
+  }
+  #SubEmail {
+    width: 75%;
+  }
+
+  .news-inner button {
+    float: right;
+    width: 25%;
+    margin-top: 0px;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .container {
+    width: 80%;
+  }
+  .inner-quickLinks li {
+    width: 14vw;
+  }
+  .landing-p {
+    padding: 10% 0px 0px 10%;
+    width: 65%;
+  }
+  .landing-img {
+    width: 35%;
+  }
+}
+/* lg */
+@media (min-width: 1536px) {
+}
